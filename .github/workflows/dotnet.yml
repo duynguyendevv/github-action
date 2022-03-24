@@ -23,4 +23,4 @@ jobs:
       - name: Test
         run: dotnet test --no-build --verbosity normal
       - name: Publish
-        run: dotnet publish <path to solution file>
+        run: dotnet publish ../CMP186-WorkshopGitHubAction.sln
